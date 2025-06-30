@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Cache and bundler directories
+.cache/
+.vite/
+.next/
+out/
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*~
+
+# System files (Linux/Fedora)
+.Trash-*
+*.lock
+
+# Editor-specific
+.zed/
+
+# IDEs/editors
+.idea/
+.vscode/
+*.code-workspace
+
+# Testing output
+coverage/
+*.lcov
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
