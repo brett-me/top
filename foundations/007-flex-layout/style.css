@@ -1,0 +1,32 @@
+body {
+    background-color: lightsalmon;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body .header {
+    background-color: lightseagreen;
+    height: 100px;
+}
+
+body .main {
+    background-color: lightgoldenrodyellow;
+    flex: 1;
+    display: flex;
+}
+.main .sidebar {
+    background-color: palegreen;
+    flex: 1;
+    min-width: 100px;
+}
+
+.main .content {
+    background-color: lemonchiffon;
+    flex: 8;
+}
+
+body .footer {
+    background-color: lightslategray;
+    height: 100px;
+}
