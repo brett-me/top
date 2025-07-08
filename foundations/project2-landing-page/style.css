@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section.one {
+    flex: 0.28;
+    background-color: #1f2937;
+}
+
+.section.two {
+    flex: 0.26;
+    background-color: #ffffff;
+}
+
+.section.three {
+    flex: 0.22;
+    background-color: #e5e7eb;
+}
+
+.section.four {
+    flex: 0.24;
+    background-color: #ffffff;
+}
