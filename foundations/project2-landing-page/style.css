@@ -12,34 +12,60 @@ body {
     margin: 0 auto;
 }
 
-.section.one {
+.section-one {
     flex: 0.28;
     background-color: #1f2937;
 }
 
-.section.one .header {
+.section-one-header,
+.section-one-main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-logo,
+.header-links {
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .header-logo {
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
-    padding-top: 20px;
-    padding-left: 20px;
 }
 
-.header-links {
+.header-links,
+.main-signup-text {
     font-size: 18px;
     color: #e5e7eb;
-    padding-top: 20px;
-    padding-left: 20px;
 }
 
-.section.one .main-content {
-    display: flex;
+.section-one-main {
+    margin: 100px auto;
+}
+
+.main-signup {
+    padding-left: 20px;
+    max-width: 450px;
+}
+
+.main-signup-header {
+    font-size: 48px;
+    color: #f9f8fa;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.main-signup-button {
+    margin: 20px 0;
+}
+
+.main-image {
+    padding-right: 20px;
 }
 
 .section.two {
@@ -72,4 +98,16 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+button {
+    all: unset;
+    background-color: #3882f6;
+    color: #f9f8fa;
+    font-weight: 900;
+    font-family: inherit;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 10px 30px;
+    text-align: center;
 }
