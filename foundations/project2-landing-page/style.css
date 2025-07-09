@@ -10,11 +10,6 @@ body {
     font-family: "Roboto", "Arial", sans-serif;
 }
 
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 .section-one,
 .section-five {
     background-color: #1f2937;
@@ -26,6 +21,8 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .header-logo,
@@ -47,7 +44,8 @@ body {
 }
 
 .section-one-main {
-    margin: 100px auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .main-signup {
@@ -88,7 +86,6 @@ body {
 .section-two-main {
     padding: 0 20px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 70px;
@@ -147,15 +144,21 @@ body {
 
 .call-to-action {
     width: 1440px;
-    margin: 100px 0;
-    padding: 50px 0;
+    margin: 100px auto;
     background-color: #3882f6;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-radius: 20px;
     color: #f9f8fa;
+}
+
+.call-to-action-left {
+    padding: 75px 0 75px 150px;
+}
+
+.call-to-action-right {
+    padding: 75px 150px 75px 0;
 }
 
 .call-to-action-header {
