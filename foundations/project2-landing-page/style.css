@@ -1,3 +1,6 @@
+/* layout works on screens with a width of 1440px (or greater)*/
+/* needs to be refactored for correct flex-wrapping and general width shrinking*/
+
 body {
     display: flex;
     flex-direction: column;
@@ -12,7 +15,8 @@ body {
     margin: 0 auto;
 }
 
-.section-one {
+.section-one,
+.section-five {
     background-color: #1f2937;
 }
 
@@ -166,6 +170,12 @@ body {
 
 .call-to-action-button {
     border: solid 1px #f9f8fa;
+}
+
+.footer {
+    color: #f9f8fa;
+    text-align: center;
+    margin: 50px 0;
 }
 
 ul {
