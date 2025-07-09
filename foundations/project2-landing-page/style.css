@@ -13,7 +13,6 @@ body {
 }
 
 .section-one {
-    flex: 0.28;
     background-color: #1f2937;
 }
 
@@ -68,18 +67,49 @@ body {
     padding-right: 20px;
 }
 
-.section.two {
-    flex: 0.26;
+.section-two {
     background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 70px 0;
+}
+
+.section-two-main {
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 100px;
+}
+
+.image-and-subtext {
+    width: 220px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.image-container img {
+    border-radius: 10px;
+}
+
+.text-container {
+    margin: 10px 0;
 }
 
 .section.three {
-    flex: 0.22;
     background-color: #e5e7eb;
 }
 
 .section.four {
-    flex: 0.24;
     background-color: #ffffff;
 }
 
