@@ -138,6 +138,34 @@ body {
 
 .section.four {
     background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.call-to-action {
+    width: 1440px;
+    margin: 100px 0;
+    padding: 50px 0;
+    background-color: #3882f6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    color: #f9f8fa;
+}
+
+.call-to-action-header {
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.call-to-action-text {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.call-to-action-button {
+    border: solid 1px #f9f8fa;
 }
 
 ul {
