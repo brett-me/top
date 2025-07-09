@@ -107,6 +107,33 @@ body {
 
 .section.three {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 100px 0;
+    padding: 20px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    color: #1f2937;
+    font-size: 26px;
+    font-weight: 900;
+    align-self: flex-end;
+    margin: 20px;
 }
 
 .section.four {
