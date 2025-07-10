@@ -73,13 +73,13 @@ body {
     background-color: #ffffff;
     justify-content: center;
     align-items: center;
+    color: #1f2937;
 }
 
 .section-two-header {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
     margin: 70px 0;
 }
 
@@ -140,6 +140,7 @@ body {
 .section.four {
     background-color: #ffffff;
     margin: 0 auto;
+    width: 100vw;
 }
 
 .call-to-action {
