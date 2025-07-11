@@ -55,3 +55,29 @@ if (hour < 10 || hour > 18 || isWeekend) {
   // isWeekend is a truthy
   alert("The office is closed");
 }
+
+// || evaluates left to right
+// converts each operand to boolean, returns first true
+// if none true, returns last operand
+
+let firstName = "";
+let lastName = "";
+let nickName = "";
+alert(firstName || lastName || nickName || "anonymous"); // returns anonymous
+
+// short circuit evaluation
+false || alert("success");
+
+// && (AND)
+// Both operands need to be true to return true
+
+alert(true && true); // true
+alert(false && true); // false
+alert(true && false); // false
+alert(false && false); // false
+
+// evaluates left to right
+// converts each operand to a boolean, if false returns original operand values
+// returns last operand if operands evaluated
+
+// precedence of && is higher than ||
