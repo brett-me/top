@@ -1,0 +1,6 @@
+30 June 2025, Foundations: Setup, Git, HTML, 6h
+4 July 2025, Foundations: CSS, 10h
+9 July 2025, Foundations: Flexbox, 16h
+10 July 2025, Foundations: JS, 3h
+
+11 July 2025, Data Types and Conditionals, 3h
