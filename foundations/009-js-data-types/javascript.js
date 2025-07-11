@@ -26,10 +26,15 @@ console.log(typeof bigInt);
 
 // strings with embedded variables or expressions
 let userName = "John"; // typical string
-let helloUserName = `Hello ${userName}`; // use backticks and $ to reference
+let helloUserName = `Hello ${userName}`; // template literal
 console.log(helloUserName);
 let messageResult = `The result is ${1 + 1}`;
 console.log(messageResult);
+let multiLine = `This is one line.
+This is a second line.`; // source line breaks respected (template literal)
+console.log(multiLine);
+let textSpacing = ` This  is  spaced  out`; // spaces respected (template literal)
+console.log(textSpacing);
 
 // null, special value that represents "nothing"
 let age = null;
